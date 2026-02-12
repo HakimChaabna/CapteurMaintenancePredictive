@@ -21,8 +21,8 @@ TEG → BQ25570 (MPPT) → Supercondensateur → ESP32 + BMA400 → BLE
 | TEG | Récupération d'énergie (effet Seebeck) |
 | BQ25570 | Power management, démarrage à froid 330 mV |
 | LIC | Stockage tampon |
-| BMA400 | Accéléromètre 3 axes, 3.5 µA |
-| ESP32 | Traitement + transmission BLE, deep sleep ~10 µA |
+| BMA400 | Accéléromètre 3 axes, 15 µA |
+| ESP32 | Traitement + transmission BLE, deep sleep µA |
 
 ## État
 
