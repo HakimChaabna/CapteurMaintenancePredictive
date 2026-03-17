@@ -24,6 +24,12 @@ TEG → BQ25570 (MPPT) → Supercondensateur → ESP32 + BMA400 → BLE
 | BMA400 | Accéléromètre 3 axes, 15 µA |
 | ESP32 | Traitement + transmission BLE, deep sleep µA |
 
+## Fichiers
+| Fichier | Description |
+|---------|-------------|
+| `ESP32.py` | Acquisition accélérométrique via I2C (BMA400) et transmission BLE temps réel à 200 Hz (ESP32 / MicroPython) |
+| `Reception.py` | Réception BLE sur PC, conversion en g et enregistrement CSV horodaté (Python / Spyder) |
+
 ## État
 
 🚧 Projet en cours — phase assemblage et câblage.
