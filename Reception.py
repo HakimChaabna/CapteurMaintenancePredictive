@@ -13,7 +13,7 @@ CHAR_UUID = "6E400003-B5A3-F393-E0A9-E50E24DCCA9E"
 # INITIALISATION DU FICHIER CSV
 # =============================================================================
 
-filename = "vibrations.csv"
+filename = "Vibrations.csv"
 csvfile = open(filename, 'w', newline='')
 writer = csv.writer(csvfile)
 writer.writerow(["timestamp", "x", "y", "z"])  
