@@ -43,10 +43,11 @@ Plage par défaut du BMA400 : +/-4 g, 12 bits, soit 512 LSB/g (valeur reprise c�
 | `ESP32.py` | Firmware embarqué : cycle réveil, acquisition BMA400 en I2C, transmission BLE, deep sleep (MicroPython, à enregistrer comme `main.py`) |
 | `Reception.py` | Réception BLE sur PC, horodatage réel, conversion en g, enregistrement CSV |
 | `Analyse.py` | Analyse vibratoire : FFT, RMS, kurtosis, spectrogramme (Fe déduite des timestamps) |
-| `Courbes_TEG` | Caractérisation du TEG (modèle de Thévenin, puissance vs résistance de charge) |
-| `Courbe_BQ` | Courbe de charge des supercondensateurs via le BQ25570 |
-| `Vibrations_sain` | Acquisition de référence, état nominal |
-| `Vibrations_defaillant` | Acquisition, état dégradé |
+| `Courbes_TEG.py` | Caractérisation du TEG (modèle de Thévenin, puissance vs résistance de charge) |
+| `Courbe_BQ.py` | Courbe de charge des supercondensateurs via le BQ25570 |
+| `Vibrations_sain.csv` | Acquisition de référence, état sain |
+| `Vibrations_defaillant.csv` | Acquisition, état dégradé |
+| `Vibrations.csv` | Acquisition de test, état sain |
 
 ## Utilisation
 
