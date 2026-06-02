@@ -21,7 +21,7 @@ TEG → BQ25570 (MPPT) → Supercondensateur → ESP32 + BMA400 → BLE → PC (
 | TEG | SP1848-27145 | Récupération d'énergie (effet Seebeck) |
 | Convertisseur | BQ25570 (CJMCU-2557) | Power management, démarrage à froid 330 mV |
 | Stockage | Supercondensateurs 5 F VPF506M3R8 | Stockage tampon |
-| Accéléromètre | SparkFun BMA400 (SEN-21208) | 3 axes, 15 µA |
+| Accéléromètre | SparkFun BMA400 (SEN-21208) | 3 axes |
 | Microcontrôleur | uPesy ESP32 Wroom Low Power v1.2 | Traitement + BLE, deep sleep |
 
 ## Câblage du capteur (I2C)
